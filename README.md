@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://ibb.co/wQ4GK21"><img src="https://user-images.githubusercontent.com/77143046/143940049-de5a0b73-0a67-408f-9710-60362feaba75.jpg" alt="whatsapp-botto-rin-init" border="0"></a>
+<a href="https://ibb.co/KWkc3Gw"><img src="https://i.ibb.co/6FxcfZB/ddf604h-fec4abb5-e6b5-4f26-8868-587d1fb0525f.png" alt="whatsapp-botto-rin-init" border="0"></a>
 
 # **RIN : ANIME THEMED WHATSAPP BOT WITH RICH FEATURES**
 
