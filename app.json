@@ -1,5 +1,5 @@
 {
-    "name": "RIN",
+    "name": "SENKU",
     "description": "Maintained Fork of Void",
     "keywords": [
         "bot",
@@ -11,9 +11,9 @@
         "whatsapp-sticker-bot",
         "whatsapp-botto"
     ],
-    "website": "https://github.com/Oreki-san/RIN#readme",
-    "repository": "https://github.com/Oreki-san/RIN.git",
-    "logo": "https://user-images.githubusercontent.com/77143046/137623471-cbe3e0f5-eb13-4321-abbd-7a1e6e73f9ce.jpg",
+    "website": "https://github.com/IshigamiSenku01/SENKU#readme",
+    "repository": "https://github.com/IshigamiSenku01/SENKU.git",
+    "logo": "http://pm1.narvii.com/7346/a2bb65cfca86e3d2bf85f1b12e2132af3d43f5f6r1-736-1041v2_uhq.jpg",
     "success_url": "/",
     "env": {
         "PREFIX": {
