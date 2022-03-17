@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
             const n = [
-            './assets/Rin/rin.mp4','./assets/Rin/rin-1.mp4','./assets/Rin/rin-2.mp4','./assets/Rin/rin-3.mp4','./assets/Rin/rin-4.mp4','./assets/Rin/rin-5.mp4','./assets/Rin/rin-6.mp4'
+            './'
         ]
         let rin = n[Math.floor(Math.random() * n.length)]
         if (!parsedArgs.joined) {
@@ -38,7 +38,7 @@ export default class Command extends BaseCommand {
             let text = `
 ╭─「(づ￣ 3￣)づ」
 │⋊ ᴜꜱᴇʀ: *${M.sender.username}*
-│⋊ ɴᴀᴍᴇ: ᖇᎥᑎ
+│⋊ ɴᴀᴍᴇ: SENKU
 │⋊ ᴘʀᴇꜰɪx: ${this.client.config.prefix}
 │⋊ ᴏᴡɴᴇʀ: <${this.client.config.prefix}mod>
 ╰────────────┈平和                            \n\n`
@@ -52,12 +52,12 @@ export default class Command extends BaseCommand {
             return void this.client.sendMessage(M.from, { url: rin }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `${text}
- ──❅┈[ ᖇᎥᑎ ᗷᗝ丅 ]┈❅───
+ ──❅┈[ ISHIGAMI BOT ]┈❅───
 ┌────────────┈❅
-│   🧨 ᖇᎥᑎ
+│   🧨 SENKU
 │   ©️ Synthesized Infinity Botto
 └────────────┈⁂
-❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
+❅┈[HAVE A GOOD DAY YOU FUCKING BITCHES]┈❅
 🎗 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
             )
         }
