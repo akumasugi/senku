@@ -19,11 +19,10 @@ export default class Command extends BaseCommand {
         let rin = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: rin }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: 'GO AND READ THE FUCKING COMMANDS at ${this.client.config.prefix}𝙝𝙚𝙡𝙥 \n` }
+            caption: `What The Fuck,Get Help @ ${this.client.config.prefix}𝙝𝙚𝙡𝙥 \n` }
         )
     }
 }
-          
        
 
 
