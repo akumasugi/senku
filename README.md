@@ -12,7 +12,7 @@
 Button : If you are deploying normally
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Oreki-san/RIN)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/IshigamiSenku01/SENKU.git)
 
 Button : If you are deploying from a fork
 
@@ -33,7 +33,7 @@ Button : If you are deploying from a fork
 ## 💻 Deploy/Hosting Guide
 
 -   Section Moved to
-    [RIN-Guides](https://github.com/Oreki-san/Eru-Guide/blob/main/README.md)
+    [-Guides](https://github.com/IshigamiSenku01/SENKU#readme)
 
 ## 🍥 Features of the Repo
 
