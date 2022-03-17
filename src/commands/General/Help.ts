@@ -37,10 +37,10 @@ export default class Command extends BaseCommand {
                 }
             }
             let text = `
-            🤍 Konichiwa senpai 🤍
+             Konichiwa bitches
             ╭─「(づ￣ 3￣)づ」
             │⋊ ᴜꜱᴇʀ: *${M.sender.username}*
-            │⋊ ɴᴀᴍᴇ: ᖇᎥᑎ
+            │⋊ ɴᴀᴍᴇ: SENKU
             │⋊ ᴘʀᴇꜰɪx: ${this.client.config.prefix}
             │⋊ ᴏᴡɴᴇʀ: <${this.client.config.prefix}mod>
             ╰────────────┈平和                            \n\n`
@@ -111,7 +111,7 @@ const weeb = [
    const misc = [
     {title: 'retrieve', rowId:"rowid1"},
     {title: 'hi', rowId:"rowid1"},
-    {title: 'rin', rowId:"rowid1"},
+    {title: 'senku', rowId:"rowid1"},
    ]
    const education = [
     {title: 'calculator', rowId:"rowid1"},
@@ -198,10 +198,10 @@ const weeb = [
 
 ]
 const txt = '\n' +
-    ' 🤍 Konichiwa senpai 🤍\n' +
+    '  Konichiwa bitches \n' +
     '╭─「(づ￣ 3￣)づ」\n' +
     `│⋊ ᴜꜱᴇʀ: *${M.sender.username}*\n` +
-    '│⋊ ɴᴀᴍᴇ:. ᖇᎥᑎ\n' +
+    '│⋊ ɴᴀᴍᴇ:. SENKU\n' +
     '│⋊ ᴘʀᴇꜰɪx: #\n' +
     '│⋊ ᴏᴡɴᴇʀ: <#mod>\n' +
     '╰────────────┈平和                            \n' +
@@ -220,7 +220,7 @@ const txt = '\n' +
     '\n' +
     '🧿 *Misc* 🧿\n'   +
     '\n' +
-    '• ```retrieve, hi, rin```\n' +
+    '• ```retrieve, hi, senku```\n' +
     '\n' +
     '⚖️ *Moderation* ⚖️\n' +
     '\n' +
@@ -243,12 +243,12 @@ const txt = '\n' +
     '• ```calculator, covid, define, elements, github, urbandictionary, weather```\n' +
     '\n' +
     ' \n' +
-    ' ──❅┈[ ISHTAR ᗷᗝ丅 ]┈❅───\n' +
+    ' ──❅┈[ ISHIGAMI BOT ]┈❅───\n' +
     '┌────────────┈❅\n' +
-    '│   🧨 ᖇᎥᑎ\n'  +
+    '│   🧨 SENKU\n'  +
     '│   ©️ Synthesized Infinity Botto\n' +
     '└────────────┈⁂\n' +
-    '❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅\n'             +
+    '❅┈[HAVE A GOOD DAY YOU FUCKING BITCHES]┈❅\n'             +
     '🚀 *Note: Use #help <command_name> to view the command info*'
    const button:any = {
     buttonText: 'Help',
@@ -277,12 +277,12 @@ this.client.sendMessage(M.from,button,MessageType.listMessage)
                     //             return void this.client.sendMessage(M.from, { url: rin }, MessageType.video, {quoted:M.WAMessage,
 //             mimetype: Mimetype.gif,
 //             caption: `${text}
-//  ──❅┈[ ᖇᎥᑎ ᗷᗝ丅 ]┈❅───
+//  ──❅┈[ ISHIGAM BOT ]┈❅───
 // ┌────────────┈❅
-// │   🧨 ᖇᎥᑎ
+// │   🧨 SENKU
 // │   ©️ Synthesized Infinity Botto
 // └────────────┈⁂
-// ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
+// ❅┈[HAVE A GOOD DAY YOU FUCKING BITCHES]┈❅
 // 🎗 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
 //             )
 //         }
