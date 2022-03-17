@@ -17,12 +17,12 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            './assets/Rin/rin-hi.mp4'
+            './assets/SENKU/dr-stone-anime.mp4'
         ]
         let rin = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: rin }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
-            caption: `𝘽𝙮 𝙩𝙝𝙚 𝙬𝙖𝙮, 𝙙𝙤 𝙮𝙤𝙪 𝙠𝙣𝙤𝙬 𝙬𝙝𝙖𝙩 𝙩𝙞𝙢𝙚 𝙞𝙩 𝙞𝙨? \n` }
+            caption: `I'M 100% BILLION SURE YOU'RE A BITCH\n` }
         )
     }
 }
