@@ -14,10 +14,6 @@ Button : If you are deploying normally
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/IshigamiSenku01/SENKU.git)
 
-Button : If you are deploying from a fork
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
 </div><br/>
 <br/>
 
