@@ -38,7 +38,7 @@ export default class Command extends BaseCommand {
             let text = `
 ╭─「(づ￣ 3￣)づ」
 │⋊ ᴜꜱᴇʀ: *${M.sender.username}*
-│⋊ ɴᴀᴍᴇ: SENKU
+│⋊ ɴᴀᴍᴇ: akuma
 │⋊ ᴘʀᴇꜰɪx: ${this.client.config.prefix}
 │⋊ ᴏᴡɴᴇʀ: <${this.client.config.prefix}mod>
 ╰────────────┈平和                            \n\n`
@@ -52,12 +52,12 @@ export default class Command extends BaseCommand {
             return void this.client.sendMessage(M.from, { url: rin }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `${text}
- ──❅┈[ ISHIGAMI BOT ]┈❅───
+ ──❅┈[ akuma BOT ]┈❅───
 ┌────────────┈❅
-│   🧨 SENKU
-│   ©️ Synthesized Infinity Botto
+│   🧨 akuma
+│   ©️ Synthesized akuma Botto
 └────────────┈⁂
-❅┈[HAVE A GOOD DAY YOU FUCKING BITCHES]┈❅
+❅┈[HAVE A GOOD DAY Minna sann]┈❅
 🎗 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
             )
         }
