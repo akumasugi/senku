@@ -37,10 +37,10 @@ export default class Command extends BaseCommand {
                 }
             }
             let text = `
-             Konichiwa bitches
+             Konichiwa Minna san Senku desu
             ╭─「(づ￣ 3￣)づ」
             │⋊ ᴜꜱᴇʀ: *${M.sender.username}*
-            │⋊ ɴᴀᴍᴇ: SENKU
+            │⋊ ɴᴀᴍᴇ: akuma
             │⋊ ᴘʀᴇꜰɪx: ${this.client.config.prefix}
             │⋊ ᴏᴡɴᴇʀ: <${this.client.config.prefix}mod>
             ╰────────────┈平和                            \n\n`
@@ -198,10 +198,10 @@ const weeb = [
 
 ]
 const txt = '\n' +
-    '  Konichiwa bitches \n' +
+    '  Konichiwa Minna san Senku desu \n' +
     '╭─「(づ￣ 3￣)づ」\n' +
     `│⋊ ᴜꜱᴇʀ: *${M.sender.username}*\n` +
-    '│⋊ ɴᴀᴍᴇ:. SENKU\n' +
+    '│⋊ ɴᴀᴍᴇ:. akuma\n' +
     '│⋊ ᴘʀᴇꜰɪx: #\n' +
     '│⋊ ᴏᴡɴᴇʀ: <#mod>\n' +
     '╰────────────┈平和                            \n' +
@@ -243,12 +243,12 @@ const txt = '\n' +
     '• ```calculator, covid, define, elements, github, urbandictionary, weather```\n' +
     '\n' +
     ' \n' +
-    ' ──❅┈[ ISHIGAMI BOT ]┈❅───\n' +
+    ' ──❅┈[ akuma BOT ]┈❅───\n' +
     '┌────────────┈❅\n' +
-    '│   🧨 SENKU\n'  +
-    '│   ©️ Synthesized Infinity Botto\n' +
+    '│   🧨 akuma\n'  +
+    '│   ©️ Synthesized akuma Botto\n' +
     '└────────────┈⁂\n' +
-    '❅┈[HAVE A GOOD DAY YOU FUCKING BITCHES]┈❅\n'             +
+    '❅┈[HAVE A GOOD DAY Minna san]┈❅\n'             +
     '🚀 *Note: Use #help <command_name> to view the command info*'
    const button:any = {
     buttonText: 'Help',
@@ -277,12 +277,12 @@ this.client.sendMessage(M.from,button,MessageType.listMessage)
                     //             return void this.client.sendMessage(M.from, { url: rin }, MessageType.video, {quoted:M.WAMessage,
 //             mimetype: Mimetype.gif,
 //             caption: `${text}
-//  ──❅┈[ ISHIGAM BOT ]┈❅───
+//  ──❅┈[ akuma BOT ]┈❅───
 // ┌────────────┈❅
-// │   🧨 SENKU
-// │   ©️ Synthesized Infinity Botto
+// │   🧨 akuma
+// │   ©️ Synthesized akuma Botto
 // └────────────┈⁂
-// ❅┈[HAVE A GOOD DAY YOU FUCKING BITCHES]┈❅
+// ❅┈[HAVE A GOOD DAY Minna san]┈❅
 // 🎗 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
 //             )
 //         }
