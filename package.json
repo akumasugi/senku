@@ -1,5 +1,5 @@
 {
-    "name": "SENKU",
+    "name": "akuma",
     "version": "3.0.0",
     "description": "A WhatsApp Bot With Rich Anime Features.",
     "main": "dist/void.js",
@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/IshigamiSenku01/SENKU.git"
+        "url": "git+https://github.com/YaphetSgoD/SENKU.git"
     },
     "keywords": [
         "bot",
