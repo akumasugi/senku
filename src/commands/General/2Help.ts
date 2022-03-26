@@ -57,7 +57,7 @@ export default class Command extends BaseCommand {
 │   🧨 akuma
 │   ©️ Synthesized akuma Botto
 └────────────┈⁂
-❅┈[HAVE A GOOD DAY Minna sann]┈❅
+❅┈[HAVE A GOOD DAY Minna san]┈❅
 🎗 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
             )
         }
