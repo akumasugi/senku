@@ -3,7 +3,7 @@ import { WAClient } from '../lib/WAClient'
 import { IParsedArgs, ISimplifiedMessage } from './'
 
 export interface ICommand {
-    client?: WAClient
+    client?: WAClient PAIN
     handler?: MessageHandler
     run(M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void | never> | void | never
     config: {
