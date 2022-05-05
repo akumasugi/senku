@@ -38,9 +38,9 @@ export default class Command extends BaseCommand {
             let text = `
 ╭─「(づ￣ 3￣)づ」
 │⋊ ᴜꜱᴇʀ: *${M.sender.username}*
-│⋊ ɴᴀᴍᴇ: akuma
+│⋊ ɴᴀᴍᴇ: Senku
 │⋊ ᴘʀᴇꜰɪx: ${this.client.config.prefix}
-│⋊ ᴏᴡɴᴇʀ: <${this.client.config.prefix}mod>
+│⋊ ᴏᴡɴᴇʀ: 𝐀𝐊𝐔𝐌𝐀
 ╰────────────┈平和                            \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
@@ -52,9 +52,9 @@ export default class Command extends BaseCommand {
             return void this.client.sendMessage(M.from, { url: rin }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `${text}
- ──❅┈[ akuma BOT ]┈❅───
+ ──❅┈[ SENKU BOT ]┈❅───
 ┌────────────┈❅
-│   🧨 akuma
+│   🧨 Senku
 │   ©️ Synthesized akuma Botto
 └────────────┈⁂
 ❅┈[HAVE A GOOD DAY Minna san]┈❅
