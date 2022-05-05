@@ -40,9 +40,9 @@ export default class Command extends BaseCommand {
              Konichiwa Minna san Senku desu
             ╭─「(づ￣ 3￣)づ」
             │⋊ ᴜꜱᴇʀ: *${M.sender.username}*
-            │⋊ ɴᴀᴍᴇ: akuma
+            │⋊ ɴᴀᴍᴇ: Senku
             │⋊ ᴘʀᴇꜰɪx: ${this.client.config.prefix}
-            │⋊ ᴏᴡɴᴇʀ: <${this.client.config.prefix}mod>
+            │⋊ ᴏᴡɴᴇʀ: 𝐀𝐊𝐔𝐌𝐀
             ╰────────────┈平和                            \n\n`
     //         const keys = Object.keys(categories)
     //         for (const key of keys)
@@ -201,9 +201,9 @@ const txt = '\n' +
     '  Konichiwa Minna san Senku desu \n' +
     '╭─「(づ￣ 3￣)づ」\n' +
     `│⋊ ᴜꜱᴇʀ: *${M.sender.username}*\n` +
-    '│⋊ ɴᴀᴍᴇ:. akuma\n' +
+    '│⋊ ɴᴀᴍᴇ:. Senku\n' +
     '│⋊ ᴘʀᴇꜰɪx: #\n' +
-    '│⋊ ᴏᴡɴᴇʀ: <#mod>\n' +
+    '│⋊ ᴏᴡɴᴇʀ: 𝐀𝐊𝐔𝐌𝐀 +
     '╰────────────┈平和                            \n' +
     '\n' +
     '🚀 *Fun*🚀\n' +
@@ -243,9 +243,9 @@ const txt = '\n' +
     '• ```calculator, covid, define, elements, github, urbandictionary, weather```\n' +
     '\n' +
     ' \n' +
-    ' ──❅┈[ akuma BOT ]┈❅───\n' +
+    ' ──❅┈[ SENKU BOT ]┈❅───\n' +
     '┌────────────┈❅\n' +
-    '│   🧨 akuma\n'  +
+    '│   🧨 Senku\n'  +
     '│   ©️ Synthesized akuma Botto\n' +
     '└────────────┈⁂\n' +
     '❅┈[HAVE A GOOD DAY Minna san]┈❅\n'             +
@@ -277,9 +277,9 @@ this.client.sendMessage(M.from,button,MessageType.listMessage)
                     //             return void this.client.sendMessage(M.from, { url: rin }, MessageType.video, {quoted:M.WAMessage,
 //             mimetype: Mimetype.gif,
 //             caption: `${text}
-//  ──❅┈[ akuma BOT ]┈❅───
+//  ──❅┈[ SENKU BOT ]┈❅───
 // ┌────────────┈❅
-// │   🧨 akuma
+// │   🧨 Senku
 // │   ©️ Synthesized akuma Botto
 // └────────────┈⁂
 // ❅┈[HAVE A GOOD DAY Minna san]┈❅
